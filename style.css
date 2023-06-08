@@ -1,0 +1,106 @@
+@font-face{
+	font-family:"Roboto Slab";
+	src:url("fonts/RobotoSlab-Regular.ttf");
+}
+
+body{
+	background-color:white;
+	margin-top:50px;
+	font-family: 'Roboto Slab', sans-serif;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom: 0;
+}
+
+h1{
+	margin-top:70px;
+	font-family:'Roboto Slab', sans-serif;
+	font-size: 3.5em;
+	text-align:center;
+}
+
+#container{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+		#header{
+		width:1000px;
+		margin:0 auto;
+		text-align:center;
+		color:#0b0835;
+	}
+
+#nav-wrapper {
+	background-color: #79977a;
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	z-index:1;
+}
+#nav ul{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#nav ul ul{
+			position: absolute;
+			top: 50px; 
+			left: 0px;
+			visibility: hidden;
+}
+
+#nav li{
+	background-color: #79977a;
+	width: 250px;
+	text-align: center;
+	float:left;
+	line-height: 50px;
+	position: relative;
+}
+
+#nav li:hover {
+	background-color: #e4a121;
+}
+
+#nav li:hover > ul {
+	visibility: visible;
+}
+
+#nav {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;	
+
+}
+
+
+#nav a {
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+}
+
+#nav a:hover {
+	background-color: #e4a121;
+	color: black;
+}
+
+#nav a.active {background-color:#ffe7bd;color:black;}
+
+#footer {
+	background-color: #79977a;
+	color: #fff;
+	text-align:center;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	font-size:1em;
+	line-height:100px;
+	height:50px;
+	margin:0;
+}
+.clearfloat {clear: both;}

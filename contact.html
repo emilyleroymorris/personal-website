@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Emily Morris | Contact</title>
+
+<link href="style.css" rel="stylesheet"/>
+<style>
+		.form-row {
+			margin: 20px 0px;
+			clear:left;
+	}
+	
+		button {
+			padding: 10px 20px;
+	}
+	
+	#submit-btn {
+			background-color: #e4a121;
+			color: #FFF;
+	}
+
+	input {
+		  width: 100%;
+		  padding: 12px 20px;
+		  margin: 8px 0;
+		  box-sizing: border-box;
+		}
+
+		.main-label{
+			font-size:1.25em;
+			background-color:#c7d9c5;
+		}
+
+
+</style>
+
+</head>
+<body>
+
+<div id="nav-wrapper">
+<div id="nav">
+		<ul>
+			<li><a href="index.html" >Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html" class="active">Contact</a></li>
+			<li><a href="description.html">Final Project Description</a></li>
+
+		</ul>
+<div class="clearfloat"></div>
+
+</div> <!-- #nav -->
+</div> <!-- #nav-wrapper -->
+<div id="container">
+<div id="header">
+<h1>Get in touch!</h1>
+</div>
+
+
+<form action="confirmation.html">
+
+	<div class="form-row">
+	<label for="name" class="main-label">Name:</label>
+	<input id="name" type="text" placeholder="Enter your name" required>
+	</div>
+
+
+	<div class="form-row">
+		<label class="main-label" for="email-id">Email:</label>
+		<input id="email-id" type="email" placeholder="yourname@gmail.com">
+	</div> 
+
+
+	<div class="form-row">
+	<label class="main-label">How can I help you?</label>
+	<label for="edit"><input id="edit" type="checkbox" name="Edit" value="editing">I need help editing!</label>
+	<label for="writing"><input id="writing" type="checkbox" name="Writing" value="Writing">I need help writing!</label>
+	<label for="employer"><input id="employer" type="checkbox" name="employer" value="employer">I'm interested in hiring you in some other way!</label>
+	<label for="other"><input id="other" type="checkbox" name="other" value="other">None of the above/other</label>
+	</div>
+
+	<div class="form-row">
+	<label for="message" class="main-label">Questions/comments/concerns/suggestions:</label>
+	<textarea id="message" placeholder="Share your thoughts..."></textarea>
+	</div>
+
+	<div class="form-row">
+	<button id="submit-btn" type="submit">Send</button>
+	<button type="reset">Reset</button>
+	</div>
+	
+
+</form>
+
+</div>
+
+
+
+<div id="footer"></div>
+</body>
+</html>
