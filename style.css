@@ -83,11 +83,12 @@ h1{
 }
 
 #nav a:hover {
-	background-color: #ffe7bd;
+	background-color: #79977a;
 	color: white;
 }
 
-#nav a.active {background-color:#79977a;color:white;}
+#nav a.active {;color:black;text-decoration: underline;
+  text-decoration-color: #79977a;}
 
 #footer {
 	background-color: #79977a;
