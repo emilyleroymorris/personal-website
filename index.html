@@ -4,6 +4,12 @@
 
 <title>Emily Morris | Home</title>
 
+  <meta charset="UTF-8">
+  <meta name="description" content="Emily Morris Student Page">
+  <meta name="keywords" content="Student, schedule, website">
+  <meta name="author" content="Emily Morris">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link href="style.css" rel="stylesheet"/>
 <link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
 
@@ -48,6 +54,39 @@
 			object-fit: cover;
 		}
 
+	/* Tablets - Screen Sizes ≤ 991px */
+		
+		@media (max-width:991px) {
+
+		#nav{float:none;width:auto;}
+		#container {width:auto; }
+		.flex-caption{height: auto; font-size: 1em;}
+		.flex-control-thumbs {max-height:90px;}
+		.flexslider .slides img {
+			width:40em;
+			margin-left:20%;
+			object-fit: cover;
+		}
+		h1{
+		margin-top:120px;
+		text-align: center;
+		}
+	}
+
+		/* Mobile –Screen Sizes ≤ 767px */
+		
+		@media (max-width:767px) {
+			body {padding:0px;}
+		#nav, #header{float:none;width:auto;}
+		.flex-caption{height: auto; font-size: 1em;}
+		.flex-control-thumbs {max-height:90px;}
+		.flexslider .slides img {
+			width:20em;
+			margin-left:20%;
+		}
+		}
+
+
 </style>
 </head>
 <body>
@@ -62,7 +101,6 @@
 			<li><a href="about.html">About</a></li>
 			<li><a href="portfolio.html">Portfolio</a>
 			<li><a href="contact.html">Contact</a></li>
-			</li>
 
 		</ul>
 <div class="clearfloat"></div>
@@ -122,4 +160,4 @@ $(window).load(function() {
 });
 </script>
 </body>
-<html>
+</html>
