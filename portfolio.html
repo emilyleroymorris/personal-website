@@ -104,16 +104,13 @@
 	text-align: center;
 }
 
-.box-pdf{
-	  border: 0;
-    width:500px;
-    height:300px;
-    margin-left: 85px;
+.panel img{
+	  border: solid 1px #79977a;
+    width:400px;
+    height:auto;
+    margin-left: 135px;
 
 }
-
-
-
 
 
 /* Tablets - Screen Sizes ≤ 991px */
@@ -121,13 +118,13 @@
 		#nav{float:none;width:auto;}
 		.sidebar-row{float:none;width:auto;}
 		#sidebar, #content, #overview, .panel{float:none;width:auto;}
-		#container {width:auto; }
+		#container {width:auto;}
 		#resume-pdf {width:100%;}
-		#box-pdf{width:100%; margin-left:0;float:none;}
+		.panel img{width:100%; margin-left:0;float:none; padding:0;}
 		img{
 			width:auto;
 			height:auto;
-			margin-left:20%;
+			margin:0;
 		}
 
 		h1{
@@ -182,11 +179,12 @@
 <div class="panel">
 	<h3>Fiction</h3>
 	<div id="top-box">
-		<iframe class="box-pdf" src="pdfs/Scorcher.pdf" frameborder="0"></iframe>
+		<a href="pdfs/Scorcher.pdf" target="_blank"><img alt="Scorcher short story" src="images/Scorcher.jpeg" /></a>
+
 		<h4>More:</h4>
 		 <p><a href="pdfs/Spent.pdf" target="_blank">Spent</a>.</p>
-		 <p><a href="pdfs/Life Insurance.pdf" target="_blank">Life Insurance</a>.</p>
-		 <p><a href="pdfs/Grandma’s House on the Hill.pdf" target="_blank">Grandma’s House on the Hill</a>.</p>
+		 <p><a href="pdfs/Life-Insurance.pdf" target="_blank">Life Insurance</a>.</p>
+		 <p><a href="pdfs/Grandma.pdf" target="_blank">Grandma’s House on the Hill</a>.</p>
 		
 	</div>
 
@@ -196,11 +194,11 @@
 <div class="panel">
 	<h3>Essays & Articles</h3>
 		<div id="middle-box">
-		<iframe class="box-pdf" src="pdfs/On Friendship, Apart.pdf" frameborder="0"></iframe>
+			<a href="pdfs/America.pdf" target="_blank"><img alt="Men in my America personal essay" src="images/America.jpeg" /></a>
 		<h4>More:</h4>
-		 <p><a href="pdfs/Opposing Explanations for Cold War Proxy Warfare in Afghanistan.pdf" target="_blank">Opposing Explanations for Cold War Proxy Warfare in Afghanistan</a>.</p>
-		 <p><a href="pdfs/Happiness May Finally Come- Chile Votes to Scrap Pinochet’s Constitution.pdf" target="_blank">Happiness May Finally Come- Chile Votes to Scrap Pinochet’s Constitution</a>.</p>
-		 <p><a href="pdfs/Caravans and Catastrophe - Biden's Plan for Climate Migratioin.pdf" target="_blank">Caravans and Catastrophe - Biden's Plan for Climate Migratioin</a>.</p>
+		 <p><a href="pdfs/Opposing.pdf" target="_blank">Opposing Explanations for Cold War Proxy Warfare in Afghanistan</a>.</p>
+		 <p><a href="pdfs/Chile.pdf" target="_blank">Happiness May Finally Come- Chile Votes to Scrap Pinochet’s Constitution</a>.</p>
+		 <p><a href="pdfs/Caravans.pdf" target="_blank">Caravans and Catastrophe - Biden's Plan for Climate Migration</a>.</p>
 
 	</div>
 </div>
@@ -208,15 +206,16 @@
 <div class="panel">
 	<h3>Poetry</h3>
 	<div id="bottom-box">
-		<iframe class="box-pdf" src="pdfs/Today I Learned.pdf" frameborder="0"></iframe>
+
+		<a href="pdfs/Today-I-Learned.pdf" target="_blank"><img alt="Today I learnec poem" src="images/Today-I-Learned.jpeg" /></a>
 		<h4>More:</h4>
 		 <p><a href="pdfs/Jester.pdf" target="_blank">Jester</a>.</p>
 		 <p><a href="pdfs/Lefty.pdf" target="_blank">Lefty</a>.</p>
-		 <p><a href="pdfs/Yellow Walls.pdf" target="_blank">Yellow Walls</a>.</p>
+		 <p><a href="pdfs/Yellow-Walls.pdf" target="_blank">Yellow Walls</a>.</p>
 	</div>
 </div>
 
-<iframe id="resume-pdf" src="pdfs/resume.pdf" frameborder="0"></iframe>
+<iframe id="resume-pdf" src="pdfs/resume.pdf"></iframe>
 
 
 <div class="clearfloat"></div>

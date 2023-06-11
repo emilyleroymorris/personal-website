@@ -11,12 +11,18 @@
 
 <link href="style.css" rel="stylesheet"/>
 <style>
-		.form-row {
+	.form-row {
 			margin: 20px 0px;
 			clear:left;
 	}
+
+	form{
+		border:solid 1px black;
+		padding: 5px;
+		margin:5px;
+	}
 	
-		button {
+	button {
 			padding: 10px 20px;
 	}
 	
@@ -26,14 +32,13 @@
 	}
 
 	input {
-		  width: 100%;
-		  padding: 12px 20px;
-		  margin: 8px 0;
+		  width:80%;
+		  padding: 5px 5px;
 		  box-sizing: border-box;
 		}
 
-		.main-label{
-			font-size:1.25em;
+	.main-label{
+			font-size:1em;
 			background-color:#c7d9c5;
 		}
 		
@@ -46,7 +51,7 @@
 		}
 		#container {width:auto; }
 		input{
-			width:90%;
+			width:auto;
 			padding-left: 10px;
 		  	margin: 4px 4px;
 			margin-left:20%;
@@ -105,15 +110,6 @@
 		<label class="main-label" for="email-id">Email:</label>
 		<input id="email-id" type="email" placeholder="yourname@gmail.com">
 	</div> 
-
-
-	<div class="form-row">
-	<label class="main-label">How can I help you?</label>
-	<label for="edit"><input id="edit" type="checkbox" name="Edit" value="editing">I need help editing!</label>
-	<label for="writing"><input id="writing" type="checkbox" name="Writing" value="Writing">I need help writing!</label>
-	<label for="employer"><input id="employer" type="checkbox" name="employer" value="employer">I'm interested in hiring you in some other way!</label>
-	<label for="other"><input id="other" type="checkbox" name="other" value="other">None of the above/other</label>
-	</div>
 
 	<div class="form-row">
 	<label for="message" class="main-label">Questions/comments/concerns/suggestions:</label>
