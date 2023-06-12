@@ -58,7 +58,7 @@ h1{
 	width: 120px;
 	text-align: center;
 	float:left;
-	line-height: 50px;
+	line-height: 70px;
 	position: relative;
 }
 
@@ -87,7 +87,7 @@ h1{
 	color: white;
 }
 
-#nav a.active {;color:black;text-decoration: underline;
+#nav a.active {color:black;text-decoration: underline;
   text-decoration-color: #79977a;}
 
 #footer {
@@ -95,12 +95,35 @@ h1{
 	color: #fff;
 	text-align:center;
 	list-style: none;
-	margin: 0px;
-	padding: 0px;
 	font-size:1em;
 	line-height:100px;
-	height:50px;
-	margin:0;
+	height:100px;
+	margin:0 auto;
 	margin-top:50px;
+}
+
+#footer ul{
+	list-style: none;
+	padding: 0px;
+	margin:0 auto;
+	width:480px;
+}
+
+#footer li{
+	width: 120px;
+	text-align: center;
+	float:left;
+	line-height: 100px;
+}
+
+#footer a {
+	display: block;
+	text-decoration: none;
+	color: lightgray;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+  text-decoration-color: lightgrey;
 }
 .clearfloat {clear: both;}
